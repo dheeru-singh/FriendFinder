@@ -1,0 +1,132 @@
+body{
+    background-color: #e2e2e2;
+}
+.content {
+    flex: 1;
+}
+.modal-body img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.modal-title{
+    width: 100%;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: #ad003e;
+    color: white;
+    padding: 10px 0px;
+    font-size: 1.7rem;
+}
+
+  
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .wrap {
+    padding-top: 50px;
+  }
+  
+  
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    background-color: #ad003e;
+  }
+  .footer a{
+      color:#fff;
+  }
+  .footer p{
+      margin-bottom:0; 
+      color: white;
+  }
+  .btn-blue{
+    background-color: #ad003e;
+    border-radius: 0;
+    border: 1px solid #ad003e;
+    color:#fff;
+    font-size: 1.25rem;
+  }
+  .btn-blue:hover{
+    background-color: #ad003e;
+    border-radius: 0;
+    border: 1px solid #ad003e;
+  }
+  .btn-blue:hover .fa{
+   
+    transition: 0.9s;
+    transform: rotatex(360deg);
+}
+.form-section{
+    background-color: white;
+    padding: 20px;
+}
+.form-section strong{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ad003e;
+}
+.form-section p {
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #848282;
+
+}
+.form-section .form-control{
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+.jumbotron{
+    background-color: #fff;
+    border-radius: 0;
+    text-align: center;
+}
+.jumbotron h1{
+    color: #ad003e;
+    font-weight: bold;
+    
+}
+.jumbotron h1:hover .fa{
+  
+    transition: 0.9s;
+    transform: rotatey(180deg);
+}
+.jumbotron h2{
+    color: #848282;
+}
+.modal-content{
+    border-radius:0; 
+    border: 0px;
+}
+.modal-header{
+    border-radius:0; 
+    background-color: #ad003e;
+    border: 0px;
+    color: #fff;
+}
+button.close, button.close:hover{
+    color: #fff;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <header>Survey Questions </header>
+    <div class="container wrap">
+      <div class="form-section">
+        <p><strong>About You</strong></p>
+        <p>Name (Required)</p>
+        <input type="text" id="name" class="form-control" required="">
+
+        <p>Link to Photo Image (Required)</p>
+        <input type="text" id="photo" class="form-control" required="">
+
+        <p><strong>Question 1</strong></p>
+        <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+        <select class="form-control" id="q1" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      
+        <p><strong>Question 2</strong></p>
+        <p>Generally speaking, you rely more on your experience than your imagination.</p>
+        <select class="form-control" id="q2">
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <p><strong>Question 3</strong></p>
+        <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+        <select class="form-control" id="q3" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      
+
+        <p><strong>Question 4</strong></p>
+        <p>You rarely do something just out of sheer curiosity.</p>
+        <select class="form-control" id="q4" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      
+
+        <p><strong>Question 5</strong></p>
+        <p>People can rarely upset you.</p>
+        <select class="form-control" id="q5" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+
+        <p><strong>Question 6</strong></p>
+        <p>It is often difficult for you to relate to other people’s feelings.</p>
+        <select class="form-control" id="q6">
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+
+        <p><strong>Question 7</strong></p>
+        <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+        <select class="form-control" id="q7">
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+        
+        <p><strong>Question 8</strong></p>
+        <p>You rarely get carried away by fantasies and ideas.</p>
+        <select class="form-control" id="q8">
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      
+
+        <p><strong>Question 9</strong></p>
+        <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+        <select class="form-control" id="q9" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+
+        <p><strong>Question 10</strong></p>
+        <p>You feel more energetic after spending time with a group of people.</p>
+        <select class="form-control" id="q10" >
+          <option value="0">Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+        <br>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn  btn-lg btn-block btn-blue" id="submit" >
+            <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+        </button>
+      </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+    </div>
+</footer>
+<!--Modal Popup for bestFriend-->
+<div class="modal fade" id="bestFriendModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" >Your New Best Friend</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h4 id="bestFriendname" class="text-center"> </h4>
+          <img src="" id="bestFriendPhoto">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-blue" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
+<!--Modal popup for incomplete form-->
+<div class="modal fade" id="serveyIncompleteModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title" >Your New Best Friend</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h4 id="serveyIncomplete" class="text-center">Your Survey is incomplete ! </h4>
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-blue" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // Submit button click function
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+      var valid = true;
+
+      if(($("#name").val()==="") || ($("#photo").val()==="")){
+        valid = false;
+       
+      }else if(($("#q1")[0].selectedIndex==0)||($("#q2")[0].selectedIndex==0)||
+      ($("#q3")[0].selectedIndex==0)||($("#q4")[0].selectedIndex==0)||($("#q5")[0].selectedIndex==0)||
+      ($("#q6")[0].selectedIndex==0)||($("#q7")[0].selectedIndex==0)||($("#q8")[0].selectedIndex==0)||
+      ($("#q9")[0].selectedIndex==0)||($("#q10")[0].selectedIndex==0)){
+        valid = false;
+       
+      }
+     
+      if(valid === true){
+      var newCharacter = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: [
+        $("#q1").val(),
+        $("#q2").val(),
+        $("#q3").val(),
+        $("#q4").val(),
+        $("#q5").val(),
+        $("#q6").val(),
+        $("#q7").val(),
+        $("#q8").val(),
+        $("#q9").val(),
+        $("#q10").val()
+        ]
+        
+      };
+      var currentLocation=window.location.origin;
+     // console.log(currentLocation)     //return  http://localhost:3000
+      // Question: What does this code do??
+      $.post(currentLocation + "/api/friends", newCharacter)
+        .then(function(data) {
+          console.log("survey.html", data);
+          $("#bestFriendname").text(data.name);
+			  	$("#bestFriendPhoto").attr("src", data.photo);
+				  $("#bestFriendModal").modal("toggle");
+         // alert("Adding character...");
+
+        });
+    }else{
+      
+      $("#serveyIncompleteModal").modal("toggle");
+     // alert("Your Survey is incomplete !")
+    }
+      
+    });
+  </script>
+
+</body>
+</html>
