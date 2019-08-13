@@ -16,10 +16,6 @@ app.use(express.static(__dirname + "/app/css"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Routes
-// =============================================================
-
-// Basic route that sends the user first to the AJAX Page
 
 // API and HTML routes
 require("./app/routing/apiRoutes.js")(app);

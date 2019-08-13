@@ -27,26 +27,24 @@ html {
     box-sizing: border-box;
   }
   
-  *,
-  *:before,
-  *:after {
+*, *:before, *:after {
     box-sizing: inherit;
   }
   
-  body {
+body {
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
     min-height: 100%;
     font-family: "Helvetica Neue", Arial, sans-serif;
-  }
-  
-  .wrap {
+}
+
+.wrap {
     padding-top: 50px;
-  }
-  
-  
-  .footer {
+}
+
+
+.footer {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -55,28 +53,27 @@ html {
     background-color: #efefef;
     text-align: center;
     background-color: #ad003e;
-  }
-  .footer a{
-      color:#fff;
-  }
-  .footer p{
-      margin-bottom:0; 
-      color: white;
-  }
-  .btn-blue{
+}
+.footer a{
+    color:#fff;
+}
+.footer p{
+    margin-bottom:0; 
+    color: white;
+}
+.btn-theme{
     background-color: #ad003e;
     border-radius: 0;
     border: 1px solid #ad003e;
     color:#fff;
     font-size: 1.25rem;
-  }
-  .btn-blue:hover{
+}
+.btn-theme:hover{
     background-color: #ad003e;
     border-radius: 0;
     border: 1px solid #ad003e;
-  }
-  .btn-blue:hover .fa{
-   
+}
+.btn-theme:hover .fa{
     transition: 0.9s;
     transform: rotatex(360deg);
 }
