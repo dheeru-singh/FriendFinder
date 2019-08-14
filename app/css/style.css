@@ -127,3 +127,7 @@ body {
 button.close, button.close:hover{
     color: #fff;
 }
+.footer a:hover {
+    text-decoration: none;
+    font-style: oblique;
+}
