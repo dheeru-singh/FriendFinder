@@ -8,7 +8,7 @@ var friends = require("./app/data/friends.js");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + "/app/css"));
 
